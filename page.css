@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  background-color: rgb(245, 247, 205);
+}
+
+#title {
+text-align: center;
+padding: none;
+font-family: 'Amatic SC', cursive;
+font-size: 65px;
+color: rgb(12, 209, 12);
+}
+
+#description {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 21px;
+  color: rgb(10, 54, 10);
+  padding: none;
+}
+
+#survey-form {
+  border-radius: 8px; 
+  margin-top: 5px; 
+  padding: 37px;
+  width: 650px;
+  background-color: rgb(176, 198, 204);
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(7, 1, 1);
+  font-family: 'News Cycle', sans-serif;
+  font-size: 13px;
+}
+
+textarea {
+  width: 350px;
+  height: 120px;
+  border:10px;
+  margin-left: 2px;
+}
+
+#myList {
+  height: 40px;
+  width: 243px;
+  padding: 1px;
+  margin: 10px;  
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 4px;
+  
+}
+
+#dropdown {
+  margin-left: 14px;
+  border-radius: 6px;
+}
+
+#personalDetails, #personalDetails1, #personalDetails2, #personalDetails3, #personalDetails4 {
+  height: 30px;
+  width: 140px;
+  padding: 3px;
+  margin: 10px;  
+  margin-top: 15px;
+  border-radius: 6px;
+  margin-left: 15px;
+
+}
+
+#textarea, #checkboxes, #Question1, #Question2 {
+  margin-left: 14px;
+
+}
+
+#submit {
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+#personalDetails4 {
+  height: 30px;
+  width: 140px;
+  padding: 3px;
+  margin: 10px;  
+  margin-top: 15px;
+  border-radius: 6px;
+  margin-left: 15px;
+}

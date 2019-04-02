@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+ <link rel="stylesheet" href="page.css">
+</head>
+<body>
+  <div id="main">
+  <h1 id="title">Survey Turtle</h1>
+    <p id="description">Capture real voices and opinions and make sense of them at scale</p>
+  </div>
+  <form id="survey-form">
+    <div id="personalDetails">
+      <label id="name-label">
+        <label for="name">First Name*</label>
+          <input type="text" placeholder="First Name" name="FirstName" id="name" required>
+      </label>
+    </div>
+    <br/>
+    <div id="personalDetails1">
+      <label id="lastname-label">
+        <label for="Lastname">Last Name*</label>
+          <input type="text" placeholder="LastName" name="Last Name" id="Lastname" required>
+      </label>
+    </div>
+    <br/>
+    <div id="personalDetails2">
+      <label id="email-label">
+        <label for="email">Email Address*</label>
+          <input type="email" placeholder="Email Address" name="email" id="email" required>
+      </label>
+  </div>
+  <br/>
+  <div id="personalDetails3">
+    <label id="phonenumber-label">
+      <label for="phonenumber">Tel Number*</label>
+        <input type="tel" pattern="^\d{11}$" id="phonenumber" name="number" placeholder="Phone number" required>
+    </label>
+  </div>
+    <br/>
+  <div id="personalDetails4">
+    <label id="number-label">
+      <label id="person-age" for="number">Age*</label>
+        <input type="number" id="number" name="age" placeholder="Age" min="16" max="120" required>
+    </label>
+  </div>
+    <br/>
+    <br/>
+    <div id="dropdown">
+      <label>Which option best describes your current role?</label><br/>
+        <select id="myList">
+          <option value="1">Intern</option>
+          <option value="2">Apprentice</option>
+          <option value="3">Graduate</option>
+          <option value="4">Junior</option>
+        </select>
+    </div>
+    <br/>
+    <div id="Question1">
+        <label>How likely is that you would recommend freeCodeCamp to a friend?</label><br/>
+          <br/>
+          <input type="radio" name="option1" value="Yes" required> Yes
+          <input type="radio" name="option1" value="Maybe" required> Maybe
+          <input type="radio" name="option1" value="No" required> No
+          <br/>
+          <br/>
+    </div>
+    <br/>
+    <div id="Question2">
+      <label>Has your knowledge increased with freeCodeCamp</label><br/>
+          <br/>
+          <input type="radio" name="option2" value="Yes" required> Yes
+          <input type="radio" name="option2" value="A Little" required> A little
+          <input type="radio" name="option2" value="Not really" required> Not really <br/>
+    </div>
+      <br/>
+      <br/>
+    <div id="checkboxes">
+      <label>How are you planning to use your coding knowledge?</label><br/>
+          <br/>
+          <input type="checkbox" name="tick" value="Developer">Work as a Developer
+          <br/>
+          <input type="checkbox" name="tick" value="languages">Learn more languages
+          <br/>
+          <input type="checkbox" name="tick" value="Hobby">Keep it as a hobby
+          <br/>
+          <input type="checkbox" name="tick" value="Mentor">Mentor others
+          <br/>
+          <input type="checkbox" name="tick" value="teacher">Become a teacher
+          <br/>
+          <br/>
+    </div>
+    <div id="textarea">
+        <br/>
+        <label>Please leave a comments below</label><br/>
+        <br/>
+        <textarea name="Comments" placeholder="Comments" minlength="10" maxlength="250" required></textarea>
+    </div>
+    <button id="submit" type="submit" form="nameform" value="Submit">Submit</button>    
+  </form>
+</body>
